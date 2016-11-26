@@ -1,0 +1,6 @@
+= DeskOS: audacious RPM
+
+This is the _audacious_ RPM package for the *DeskOS* operating system.
+
+Upstream comes from the NUX Dextop 7:
+http://li.nux.ro/download/nux/dextop/el7/SRPMS/audacious-3.5.1-1.el7.nux.src.rpm[audacious-3.5.1-1.el7.nux.src.rpm]

@@ -8,7 +8,7 @@
 
 Name: audacious
 Version: 3.5.1
-Release: 1%{?dist}
+Release: 2%{?dist}
 
 License: BSD
 Summary: Advanced audio player
@@ -95,7 +95,7 @@ sed -i '\,^.SILENT:,d' buildsys.mk.in
 
 %build
 %configure  \
-    --with-buildstamp="Fedora package"  \
+    --with-buildstamp="DeskOS package"  \
     --disable-rpath \
     --disable-dependency-tracking
 make %{?_smp_mflags}
@@ -158,6 +158,9 @@ fi
 
 
 %changelog
+* Fri Nov 25 2016 Ricardo Arguello <rarguello@deskosproject.org> - 3.5.1-2
+- Rebuilt for DeskOS
+
 * Thu Jul 24 2014 Michael Schwendt <mschwendt@fedoraproject.org> - 3.5.1-1
 - Update to 3.5.1.
 
